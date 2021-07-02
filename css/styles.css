@@ -15,6 +15,15 @@
 body {
     background-color: rgb(255, 255, 255);
 }
+
+  
+  /*Body*/
+  body {
+    background-color: #fff;
+    color: #191b1d;
+   
+    text-rendering: optimizelegibility;
+  }
 .hidden {
     overflow: hidden;
 }
