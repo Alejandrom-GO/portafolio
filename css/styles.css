@@ -120,6 +120,9 @@ nav {
 #home img {
     align-items: center;
 }
+.img-about{
+   margin-top: 7vw;
+}
 .types{
     font-size: 20.0vw;
     color: rebeccapurple;
