@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <title>Developer Web</title>
+</head>
+
+<body class="hidden">
+  <div class="centrado" id="preloader">
+    <div class="lds-grid">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+  </div>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto" id="menulink">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">
+            Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page/about.html"> About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="page/skills.html"> Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page/portofolio.html"> Portofolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page/contact.html"> Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="main">
+    <section id="home">
+      <div class="d-flex mt-5 ">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-5" style="display: flex;justify-content: center;align-items: center;">
+              <br />
+              <br />
+              <br />
+              <lottie-player src="css/img/ima-home.json" background="transparent" speed="1"
+                style="width: 35vw; height: 35vw;" loop autoplay></lottie-player>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-7">
+              <h1><span class="typed"></span></h1>
+              <div id="cadenas-typed">
+                <p class="item-typed"><i class="item-typed"> WEB DEVELOPER</i></p>
+                <p class="item-typed"> <i class="item-typed">WEB DESIGNER</i></p>
+                <p class="item-typed">
+                  <i class="item-typed">DEVELOPER FRONTEND</i>
+                </p>
+                <p class="item-typed">
+                  <i class="item-typed"> DEVELOPER BACKEND</i>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row align-items-center text-center">
+            <div class="col-md-1"></div>
+            <div class="col-md-2 icon animate__animated animate__heartBeat animate__delay-1s">
+              <a class="whatsapp-icon" href=""><img src="css/img/Whatsapp_icon.svg" alt="" /></a>
+              <br />
+              <br />
+              <h4>Whats App</h4>
+            </div>
+            <div class="col-md-2"></div>
+            <div class=" col-md-2 icon animate__animated animate__heartBeat animate__delay-1s">
+              <a href=""><img src="css/img/Google_icon.svg" alt="" /></a>
+
+              <br />
+              <br />
+              <h4>Email</h4>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-2 icon animate__animated animate__heartBeat animate__delay-1s">
+              <a href=""><img src="css/img/github_icon.svg" alt="" /></a>
+              <br />
+              <br />
+              <h4>Git Hub</h4>
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </div>
+  <br><br><br><br>
+  <br><br><br><br>
+  <footer class="bg-dark">
+    <br>
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row align-items-center text-center">
+            <div class="col">
+              <p class="social text-muted mb-0 pb-0 bold-text">
+                <a href=""><span class="mx-2"><i class="fa fa-facebook" aria-hidden="true"></i></span> </a>
+                <a href=""><span class="mx-2"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span></a>
+                <a href=""><span class="mx-2"><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+                <a href=""><span class="mx-2"><i class="fa fa-instagram" aria-hidden="true"></i></span> </p></a>
+              <small class="rights"><span>&#174;</span> Miguel Gutierrez All Rights Reserved.</small>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src=" https://cdn.jsdelivr.net/npm/typed.js@2.0.11 "></script>
+  <script src="js/typed.js"></script>
+
+  <script src=" js/wow.min.js "></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <script src="js/main.js"></script>
+  <script src="js/preloader.js"></script>
+</body>
+
+</html>
