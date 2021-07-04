@@ -5,19 +5,19 @@
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- <script src="https://kit.fontawesome.com/fad5822735.js" crossorigin="anonymous"></script> -->
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
   <script src="../js/queryloader2.min.js" type="text/javascript"></script>
   <script src="../js/queryloader.js" type="text/javascript"></script>
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
   <!-- Bootstrap CSS -->
-  
+
   <link rel="stylesheet" href="../css/bootstrap.min.css" />
   <link rel="stylesheet" href="../css/styles.css" />
   <link rel="stylesheet" href="../css/animate.css" />
- 
-  
 
+
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <title>Developer Web</title>
 </head>
 
@@ -59,11 +59,11 @@
       <div class="container">
         <br /><br />
         <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
-          <div class="col item bg-da">
+          <div class="col item ">
 
             <h2 class="subtitule wow bounceInDown" data-wow-delay="1s">¡Creemos proyectos juntos!</h2>
             <div class="barra wow bounceInLeft" data-wow-delay="1s"></div>
-            <p class="pf1  wow bounceInLeft " data-wow-delay="1s">
+            <p class="pf2  wow bounceInLeft " data-wow-delay="1s">
               Hola! , empece en el desarrollador web desde el 2018 y trabajo
               como freelance, soy Tecnico Superior Universitario en Desarrollo
               de Software Multiplataforma, actualmente estudio el ultimo semestre en Ingeniera en
@@ -77,26 +77,28 @@
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
 
-              <button class="btn btn btn-outline-primary btn-dowload  wow bounceInLeft"  data-wow-delay="1s">
-                <span class='text'>Descargar CV </span><span class="icon"><i
-                    class="fa fa-download"></i></span>
-                  </button>
+              <a style="font-family: BebasNeue; font-size: 18px;"
+                class="btn btn-block btn-outline-primary btn-dowload  wow bounceInLeft" data-wow-delay="1s"
+                href="../img/CV_Miguel_A_Gutierrez_Ortega.pdf" download="Cv_2021">
+                <span class='text'>Descargar CV </span><span class="icon"><i class="fa fa-download"></i></span>
+              </a>
 
             </div>
           </div>
-          <div class="col item ">
-            <div class="img-about  wow bounceInRight"  data-wow-delay="1s">
-              <img src="/img/web_developer.svg">
+          <div class="col item img-about">
+            <div class="d-md-flex justify-content-md-center ">
+              <lottie-player src="../css/img/about.json" background="transparent" speed="1"
+              style="width: 50vw; height: 50vw;" loop autoplay>
+            </lottie-player>
             </div>
-            </div>
-           
+            
+          </div>
+
+          <br />
+          <br />
+          <br />
+
         </div>
-
-        <br />
-        <br />
-        <br />
-
-      </div>
 
     </section>
     <footer class="bg-dark">
@@ -113,19 +115,17 @@
                   <a href=""><span class="mx-2"><i class="fa fa-instagram" aria-hidden="true"></i></span> </p></a>
                 <small class="rights"><span>&#174;</span> Miguel Gutierrez All Rights Reserved.</small>
               </div>
-  
+
             </div>
           </div>
         </div>
-  
+
       </div>
-  
+
     </footer>
 
-
-
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="../js/jquery.slim.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
 

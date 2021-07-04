@@ -5,11 +5,11 @@
 
 @font-face {
     font-family: Darker;
-    src: url(../css/font/Darker_Grotesque/DarkerGrotesque-SemiBold.ttf);
+    src: url(../css/font/DarkerGrotesque-SemiBold.ttf);
 }
 @font-face {
     font-family: Ligth;
-    src: url(../css/font/Darker_Grotesque/DarkerGrotesque-Light.ttf);
+    src: url(../css/font/DarkerGrotesque-Light.ttf);
 }
 
 body {
@@ -129,8 +129,11 @@ nav {
 #home img {
     align-items: center;
 }
+
 .img-about{
-   margin-top: 7vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .types{
     font-size: 20.0vw;
@@ -145,7 +148,7 @@ nav {
 }
 
 #skills h2 {
-    font-size: 5.0vw;
+    font-size: 7.0vw;
     font-family: BebasNeue;
 }
 
@@ -158,7 +161,9 @@ nav {
     font-size: 5.0vw;
     font-family: BebasNeue;
 }
-
+#about{
+    margin-bottom: 50px;
+}
 #about .subtitule {
     font-size: 7.0vw;
     font-family: BebasNeue;
@@ -175,16 +180,12 @@ nav {
     margin-bottom: 20px;
 }
 
-.pf1 {
-    font-family: Darker;
-    text-align: justify;
-    font-size: 1.2em;
-}
+
 
 .pf2 {
     font-family: Darker;
     text-align: justify;
-    font-size: 1.4em;
+    font-size: 1.2rem;
 }
 
 .item {
@@ -262,3 +263,9 @@ nav {
     color: white;
 }
 /* end Fotter */
+
+
+.div-btn{
+    display: flex;
+    justify-content: center;
+}

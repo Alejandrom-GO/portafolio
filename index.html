@@ -5,9 +5,12 @@
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-  <!-- Bootstrap CSS -->
+    <script src="js/sweetalert2.min.js""></script>
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="stylesheet" href="css/animate.css" />
@@ -61,7 +64,7 @@
       </ul>
     </div>
   </nav>
-
+<br><br><br>
   <div class="main">
     <section id="home">
       <div class="d-flex mt-5 ">
@@ -88,49 +91,75 @@
                   <i class="item-typed"> DEVELOPER BACKEND</i>
                 </p>
               </div>
+
+              <div style="margin-top: 60px;" class="container div-btn">
+                
+                <a style="font-family: BebasNeue; font-size: 18px; width: 50%;"
+                  class="btn btn-block btn-outline-dark btn-dowload pulse"
+                  href="../img/CV_Miguel_A_Gutierrez_Ortega.pdf" download="Cv_2021">
+                  <span class='text'>Descargar CV </span><span class="icon"><i class="fa fa-download"></i></span>
+                </a>
+        
+              
+              </div>
             </div>
 
           </div>
         </div>
       </div>
+     <br>
+     <br>
+     <br>
+      <div class="d-flex justify-content-center align-items-center bounceInUp"  >
+        <div class="container ">
+          <div class="row align-items-center text-center mt-1">
 
-      <br />
-      <br />
-      <div class="d-flex justify-content-center align-items-center">
-        <div class="container">
-          <div class="row align-items-center text-center">
-            <div class="col-md-1"></div>
-            <div class="col-md-2 icon animate__animated animate__heartBeat animate__delay-1s">
-              <a class="whatsapp-icon" href=""><img src="css/img/Whatsapp_icon.svg" alt="" /></a>
-              <br />
-              <br />
-              <h4>Whats App</h4>
-            </div>
-            <div class="col-md-2"></div>
-            <div class=" col-md-2 icon animate__animated animate__heartBeat animate__delay-1s">
-              <a href=""><img src="css/img/Google_icon.svg" alt="" /></a>
+            <div class="col wow bounceInUp">
+              <a class="whatsapp-icon" href="https://wa.link/ifm8eh"><img src="../css/img/Whatsapp_icon.svg" alt="" /><br>
 
-              <br />
-              <br />
-              <h4>Email</h4>
+                <br>
+                <h5 style=" color: black; font-family: BebasNeue;">Whats App</h5>
+              </a>
+
             </div>
-            <div class="col-md-2"></div>
-            <div class="col-md-2 icon animate__animated animate__heartBeat animate__delay-1s">
-              <a href=""><img src="css/img/github_icon.svg" alt="" /></a>
-              <br />
-              <br />
-              <h4>Git Hub</h4>
+            
+            <div class="col wow bounceInUp">
+              <a class="btn" data-clipboard-text="miguel.a.gutierrezortega@gmail.com"  style="color: black;"><img src="css/img/Google_icon.svg" alt="" />
+                <br />
+                <br />
+                <h4>Email</h4>
+              </a>
+
             </div>
-            <div class="col-md-1"></div>
+
+            <div class="col wow bounceInUp">
+              <a href="https://github.com/Alejandrom-GO"><img src="../css/img/github_icon.svg" alt="" />
+                <br>
+                <br>
+                <h5 style="color: black; font-family: BebasNeue;">Git Hub</h5>
+              </a>
+
+
+            </div>
+
+            <div class="col wow bounceInUp">
+              <a href="www.linkedin.com/in/miguel-alejandro-gutierrez-ortega"><img src="../css/img/LinkedIn_icon.svg" alt="" />
+                <br>
+                <br>
+                <h5 style="color: black; font-family: BebasNeue;">LinkdeIn</h5>
+              </a>
+
+            </div>
+
           </div>
         </div>
       </div>
+      
     </section>
 
-
   </div>
-  <br><br><br><br>
-  <br><br><br><br>
+  
+  <br><br><br>
   <footer class="bg-dark">
     <br>
     <div class="container">
@@ -155,7 +184,7 @@
   </footer>
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="js/jquery.slim.min.js"></script>
+
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -167,8 +196,10 @@
   <script>
     new WOW().init();
   </script>
-
+  
   <script src="js/main.js"></script>
+  <script src="js/clipboard.min.js"></script>
+  <script src="js/copy-email.js"></script>
   
 </body>
 

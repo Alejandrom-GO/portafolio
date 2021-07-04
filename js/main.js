@@ -1,5 +1,4 @@
 
-
 /*	gallery */
 $(document).ready(function(){
 
